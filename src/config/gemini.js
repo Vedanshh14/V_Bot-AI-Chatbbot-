@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY; // Load API key from .env
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY; // Load API key from .env which is not being tracked by git.but will be added to vercel while making site live
 const genAI = new GoogleGenerativeAI(apiKey);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
