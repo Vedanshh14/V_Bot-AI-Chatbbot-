@@ -86,8 +86,8 @@ const Main = () => {
                             value={input} type="text" placeholder='Ask V_Bot' />
 
                         <div>
-                            <img src={assets.gallery_icon} />
-                            <img src={assets.mic_icon} />
+                            {/* <img src={assets.gallery_icon} />
+                            <img src={assets.mic_icon} /> */}
                             {input ? <img onClick={() => onSent(input)} src={assets.send_icon} /> : null}
                         </div>
 
