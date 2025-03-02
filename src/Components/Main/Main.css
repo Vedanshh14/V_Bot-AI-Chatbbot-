@@ -44,6 +44,7 @@
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
     gap: 15px;
     padding:20px;
+    margin-bottom: 10px;
 
 }
 
@@ -88,7 +89,7 @@
 .search-box{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     justify-content: space-between;
     gap: 20px;
     background-color: #f0f4f9;
@@ -114,6 +115,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    /* margin-top: 10px; */
 }
 
 .main .bottom-info{
@@ -196,10 +198,11 @@
     }
     .search-box{
         padding: 5px 10px;
-        margin-top: 10px;
+        
     }
     .search-box div{
         gap: 5px;
+        
 
     }
 }
