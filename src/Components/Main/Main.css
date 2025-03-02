@@ -88,6 +88,7 @@
 .search-box{
     display: flex;
     align-items: center;
+    margin-top: 10px;
     justify-content: space-between;
     gap: 20px;
     background-color: #f0f4f9;
@@ -186,13 +187,16 @@
 @media(max-width:6000x){
     .main-bottom input{
         flex:none;
+        
         width: 150px;
+
     }
     .main-bottom img{
         width: 20px;
     }
     .search-box{
         padding: 5px 10px;
+        margin-top: 10px;
     }
     .search-box div{
         gap: 5px;
